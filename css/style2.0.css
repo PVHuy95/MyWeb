@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+#Logo {
+    color: aliceblue;
+    font-family: Verdana;
+    font-size: 33pt;
+    font-weight: bold;
+    text-shadow: 5px 5px 8px #f90;
+    padding: 20px 10px;
+}
+.myNav{
+    width: 100%;
+    overflow: auto;
+    background-color: #f90;
+}
+.myNav a{
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    text-align: center;
+    width: 14%;
+    float: left;
+    padding: 14px 5px;
+}
+.myNav a:hover{
+    background-color: #F60;
+}
